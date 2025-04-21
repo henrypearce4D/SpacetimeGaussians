@@ -111,7 +111,7 @@ def getrenderpip(option="train_ours_full"):
         from forward_lite import GaussianRasterizer  
         return test_ours_litess,  GaussianRasterizationSettings, GaussianRasterizer
     else:
-        raise NotImplementedError("Rennder {} not implemented".format(option))
+        raise NotImplementedError("Render {} not implemented".format(option))
     
 def getmodel(model="oursfull"):
     if model == "ours_full":
